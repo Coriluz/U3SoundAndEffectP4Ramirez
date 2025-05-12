@@ -21,14 +21,12 @@ public class GameManager : MonoBehaviour
             if (playerControllerScript.doubleSpeed)
             {
                 score += 2;
-                {
-                    else
-                }
-                    {
-                        score++*
-                    }
-                
             }
+            else
+            {
+                score++;
+            }
+            Debug.Log("Score: " + score);
         }
     }
 }
